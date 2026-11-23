@@ -1,0 +1,98 @@
+T3C0F0 000:184.919   SEGGER J-Link V7.22b Log File
+T3C0F0 000:185.095   DLL Compiled: Jun 17 2021 17:22:49
+T3C0F0 000:185.108   Logging started @ 2026-09-23 10:57
+T3C0F0 000:185.119 - 185.126ms
+T3C0F0 000:185.145 JLINK_SetWarnOutHandler(...)
+T3C0F0 000:185.162 - 0.022ms
+T3C0F0 000:185.174 JLINK_OpenEx(...)
+T3C0F0 000:190.983   Looking for J-Link GUI Server exe at: D:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T3C0F0 000:191.121   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T3C0F0 000:492.625   Failed to connect to J-Link GUI Server.
+T3C0F0 003:193.511   TELNET listener socket opened on port 19021
+T3C0F0 003:193.822   WEBSRV Starting webserver
+T3C0F0 003:194.395   WEBSRV Webserver running on local port 19080
+T3C0F0 003:197.505 - 3012.335ms returns "O.K."
+T3C0F0 003:197.546 JLINK_GetEmuCaps()
+T3C0F0 003:197.551 - 0.006ms returns 0x98E61B83
+T3C0F0 003:197.561 JLINK_TIF_GetAvailable(...)
+T3C0F0 003:197.565 - 0.005ms
+T3C0F0 003:197.569 JLINK_SetErrorOutHandler(...)
+T3C0F0 003:197.573 - 0.005ms
+T3C0F0 003:197.602 JLINK_ExecCommand("ProjectFile = "D:\STM32Projects\SDFatfs\MDK-ARM\JLinkSettings.ini"", ...). 
+T3C0F0 003:216.027 - 18.439ms returns 0x00
+T3C0F0 003:216.068 JLINK_ExecCommand("Device = STM32F407VETx", ...). 
+T3C0F0 003:216.894   Device "STM32F407VE" selected.
+T3C0F0 003:217.381 - 1.312ms returns 0x00
+T3C0F0 003:217.398 JLINK_GetHardwareVersion()
+T3C0F0 003:219.551 - 2.167ms returns 10000
+T3C0F0 003:219.572 JLINK_GetDLLVersion()
+T3C0F0 003:219.577 - 0.006ms returns 72202
+T3C0F0 003:219.582 JLINK_GetOEMString(...)
+T3C0F0 003:219.588 JLINK_GetFirmwareString(...)
+T3C0F0 003:219.596 - 0.009ms
+T3C0F0 003:219.604 JLINK_GetDLLVersion()
+T3C0F0 003:219.608 - 0.006ms returns 72202
+T3C0F0 003:219.613 JLINK_GetCompileDateTime()
+T3C0F0 003:219.617 - 0.006ms
+T3C0F0 003:219.624 JLINK_GetFirmwareString(...)
+T3C0F0 003:219.628 - 0.006ms
+T3C0F0 003:219.634 JLINK_GetHardwareVersion()
+T3C0F0 003:219.638 - 0.006ms returns 10000
+T3C0F0 003:219.644 JLINK_GetSN()
+T3C0F0 003:219.648 - 0.006ms returns 1041384405
+T3C0F0 003:219.654 JLINK_GetOEMString(...)
+T3C0F0 004:120.245 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T3C0F0 004:120.297   
+  ***** Error: 
+T3C0F0 004:120.304   Debugger tries to select target interface JTAG.
+This interface is not supported by the connected emulator.
+Selection will be ignored by the DLL.
+T3C0F0 004:120.308 - 0.065ms returns 0x01
+T3C0F0 004:120.320 JLINK_HasError()
+T3C0F0 004:120.343 JLINK_SetSpeed(5000)
+T3C0F0 004:120.356 - 0.015ms
+T3C0F0 004:120.710 JLINK_HasError()
+T3C0F0 004:120.724 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T3C0F0 004:120.729 - 0.006ms returns JLINKARM_RESET_TYPE_NORMAL
+T3C0F0 004:120.733 JLINK_Reset()
+T3C0F0 004:130.527   InitTarget() start
+T3C0F0 004:130.549    J-Link Script File: Executing InitTarget()
+T3C0F0 005:166.497   Can not attach to CPU. Trying connect under reset.
+T3C0F0 005:371.492   Connecting to CPU via connect under reset failed.
+T3C0F0 005:425.496   InitTarget() end
+T3C0F0 005:489.573   InitTarget() start
+T3C0F0 005:489.604    J-Link Script File: Executing InitTarget()
+T3C0F0 005:643.504   Can not attach to CPU. Trying connect under reset.
+T3C0F0 005:849.503   Connecting to CPU via connect under reset failed.
+T3C0F0 005:902.042   InitTarget() end
+T3C0F0 005:902.074 - 1781.343ms
+T3C0F0 005:902.102 JLINK_GetId()
+T3C0F0 005:903.492   InitTarget() start
+T3C0F0 005:903.500    J-Link Script File: Executing InitTarget()
+T3C0F0 006:060.499   Can not attach to CPU. Trying connect under reset.
+T3C0F0 006:265.486   Connecting to CPU via connect under reset failed.
+T3C0F0 006:319.494   InitTarget() end
+T3C0F0 006:384.789   InitTarget() start
+T3C0F0 006:384.822    J-Link Script File: Executing InitTarget()
+T3C0F0 006:541.581   Can not attach to CPU. Trying connect under reset.
+T3C0F0 006:745.478   Connecting to CPU via connect under reset failed.
+T3C0F0 006:799.511   InitTarget() end
+T3C0F0 006:799.561 - 897.461ms returns 0x00000000
+T3C0F0 006:799.590 JLINK_GetId()
+T3C0F0 006:801.471   InitTarget() start
+T3C0F0 006:801.493    J-Link Script File: Executing InitTarget()
+T3C0F0 006:957.473   Can not attach to CPU. Trying connect under reset.
+T3C0F0 007:163.455   Connecting to CPU via connect under reset failed.
+T3C0F0 007:217.506   InitTarget() end
+T3C0F0 007:282.429   InitTarget() start
+T3C0F0 007:282.457    J-Link Script File: Executing InitTarget()
+T3C0F0 007:439.463   Can not attach to CPU. Trying connect under reset.
+T3C0F0 007:644.461   Connecting to CPU via connect under reset failed.
+T3C0F0 007:698.462   InitTarget() end
+T3C0F0 007:698.492 - 898.905ms returns 0x00000000
+T3C0F0 007:704.978 JLINK_GetFirmwareString(...)
+T3C0F0 007:704.995 - 0.019ms
+T3C0F0 007:745.972 JLINK_Close()
+T3C0F0 007:757.086 - 11.139ms
+T3C0F0 007:757.114   
+T3C0F0 007:757.119   Closed
